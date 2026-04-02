@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="vote-container">
+        <h1>Vote for Your Favorite Party</h1>
+        <p class="slogan">Every vote counts! Make your voice heard.</p>
+
+        <form id="voteForm">
+            <div class="party-grid">
+                <!-- Party 1 -->
+                <label class="party-card">
+                    <input type="radio" name="vote" value="BJP">
+                    <img src="party1.jpg" alt="Party 1">
+                    <p>BJP</p>
+                </label>
+
+                <!-- Party 2 -->
+                <label class="party-card">
+                    <input type="radio" name="vote" value="NCP">
+                    <img src="party2.jpg" alt="Party 2">
+                    <p>NCP</p>
+                </label>
+
+                <!-- Party 3 -->
+                <label class="party-card">
+                    <input type="radio" name="vote" value="BSP">
+                    <img src="party3.jpg" alt="Party 3">
+                    <p>BSP</p>
+                </label>
+
+                <!-- Party 4 -->
+                <label class="party-card">
+                    <input type="radio" name="vote" value="AAP">
+                    <img src="party4.jpg" alt="Party 4">
+                    <p>AAP</p>
+                </label>
+
+                <!-- Party 5 -->
+                <label class="party-card">
+                    <input type="radio" name="vote" value="NPP">
+                    <img src="party5.jpg" alt="Party 5">
+                    <p>NPP</p>
+                </label>
+            </div>
+            <button type="submit">Submit Your Vote</button>
+        </form>
+    </div>
+
+    <script src="vote.js"></script>
+</body>
+</html>
